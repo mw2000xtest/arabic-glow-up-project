@@ -1,5 +1,7 @@
+
 import React from 'react';
 import { HeartPulse, Activity, MessagesSquare, Stethoscope, TestTube, Syringe } from 'lucide-react';
+
 const ServiceCard = ({
   title,
   description,
@@ -43,43 +45,44 @@ const ServiceCard = ({
       </div>
     </div>;
 };
+
 const Services = () => {
   const services = [{
     title: "التمريض المنزلي",
     description: "نقدم خدمات تمريض منزلية شاملة وآمنة، بإشراف كوادر تمريضية مؤهلة ومرخصة، تسهم في تحسين الحالة الصحية للمريض داخل بيئته الطبيعية والتي تشتمل على خدمات",
     icon: <HeartPulse size={80} />,
     points: ["إعطاء الأدوية والحقن", "تغيير الضمادات", "متابعة العلامات الحيوية", "رعاية بعد العمليات", "العناية بكبار السن ومرضى الأمراض المزمنة", "إعداد خطة رعاية فردية بالتنسيق مع الطبيب"],
-    image: "/lovable-uploads/dc8a4b29-b8d8-4a14-bb16-963eb72aa6c5.png"
+    image: "/lovable-uploads/eba054c3-2f01-415b-9ae0-a624e43d8e80.png"
   }, {
     title: "العلاج الطبيعي",
     description: "نوفر جلسات علاج طبيعي في المنزل تهدف إلى تأهيل وتحسين قدرات المريض الحركية، وتقليل الألم وتحسين جودة الحياة من خلال خدمات",
     icon: <Activity size={80} />,
     points: ["إعادة تأهيل ما بعد الجلطات", "علاج إصابات العظام والمفاصل", "برامج علاجية لكبار السن", "تمارين علاجية مخصصة", "جلسات موجهة للأطفال"],
-    image: "/lovable-uploads/e19d81f1-904d-49c5-a3ab-45b8d8d6cd72.png"
+    image: "/lovable-uploads/a8b385f2-ff60-4d56-b9b2-7b40d1f945e7.png"
   }, {
     title: "جلسات التخاطب للأطفال",
     description: "نعمل على تطوير قدرات الأطفال اللغوية والتواصلية من خلال جلسات تخاطب متخصصة داخل المنزل",
     icon: <MessagesSquare size={80} />,
     points: ["علاج اضطرابات النطق", "التعامل مع التأخر اللغوي", "علاج التلعثم وصعوبات النطق", "تمارين تفاعلية مخصصة للأطفال", "إشراف مختصين في علم التخاطب"],
-    image: "/lovable-uploads/a3478b4d-8981-451e-ae8b-9b8e7885d814.png"
+    image: "/lovable-uploads/8bf72409-945f-44ad-be22-a7e3cfd61585.png"
   }, {
     title: "خدمة المرافق الصحي",
     description: "نقدّم خدمة المرافق الصحي لمساعدة المرضى وكبار السن في حياتهم اليومية ومرافقتهم بشكل آمن ومهني",
     icon: <Stethoscope size={80} />,
     points: ["المساعدة في تناول الأدوية", "المرافقة أثناء الزيارات الطبية", "الدعم في النظافة الشخصية والحركة", "تقديم الدعم النفسي والاجتماعي", "متابعة النظام الغذائي"],
-    image: "/lovable-uploads/24c86dda-3de0-4afd-9d23-5fadc664de11.png"
+    image: "/lovable-uploads/48ce0d0f-7d13-4c41-bdbd-7a18d531c7fe.png"
   }, {
     title: "خدمات المختبر",
     description: "نوفّر خدمات سحب العينات من المنزل لضمان راحة المريض وتسريع الحصول على النتائج المخبرية، وتشتمل على خدمات",
     icon: <TestTube size={80} />,
     points: ["سحب عينات الدم", "الفحوصات دورية", "التحاليل الشاملة"],
-    image: "/lovable-uploads/75b750a2-4e28-4a1c-89b4-7d5de6be2a07.png"
+    image: "/lovable-uploads/92c66b74-d46b-46cd-a5a1-981a254e7c97.png"
   }, {
     title: "خدمات اللقاحات",
     description: "نوفّر اللقاحات الموسمية والمتخصصة داخل المنزل لضمان الوقاية الصحية لكافة أفراد الأسرة",
     icon: <Syringe size={80} />,
     points: ["لقاحات الأطفال", "لقاحات الإنفلونزا الموسمية", "لقاحات السفر", "التوعية صحية"],
-    image: "/lovable-uploads/dbc23f60-b547-4924-8c4a-42b1c4911dc2.png"
+    image: "/lovable-uploads/4a45f2e2-9049-47df-bc05-054256153ba7.png"
   }];
   return <section id="services" className="py-16">
       <div className="container mx-auto px-4 md:px-8">
