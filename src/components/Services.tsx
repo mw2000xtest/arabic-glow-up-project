@@ -38,7 +38,7 @@ const ServiceCard = ({
           <ul className="text-gray-600 space-y-2 text-right">
             {points.map((point, index) => <li key={index} className="flex items-center justify-end gap-2">
                 <span>{point}</span>
-                <span className="text-ishraq-gold">●</span>
+                <span className="text-ishraq-gold mr-2">●</span>
               </li>)}
           </ul>
         </div>
