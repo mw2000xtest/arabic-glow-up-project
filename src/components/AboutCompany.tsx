@@ -52,25 +52,25 @@ const AboutCompany = () => {
         <div>
           <h2 className="text-3xl md:text-4xl font-bold text-ishraq-gold mb-6 text-right">أهداف الشــــركة</h2>
           <ul className="list-none mr-6 text-right text-ishraq space-y-4">
-            <li className="flex items-center justify-end">
+            <li className="flex items-center">
+              <span className="text-ishraq-gold ml-2 text-xl">●</span>
               <span className="text-right">تحسين تجربة المريض داخل المملكة من خلال تقديم خدمات منزلية بجودة عالية</span>
-              <span className="text-ishraq-gold ml-2 text-xl">●</span>
             </li>
-            <li className="flex items-center justify-end">
+            <li className="flex items-center">
+              <span className="text-ishraq-gold ml-2 text-xl">●</span>
               <span>تقليل الحاجة للزيارات المتكررة للمستشفيات</span>
-              <span className="text-ishraq-gold ml-2 text-xl">●</span>
             </li>
-            <li className="flex items-center justify-end">
+            <li className="flex items-center">
+              <span className="text-ishraq-gold ml-2 text-xl">●</span>
               <span>دعم الأسر وتمكينها من رعاية أفرادها داخل المنزل</span>
-              <span className="text-ishraq-gold ml-2 text-xl">●</span>
             </li>
-            <li className="flex items-center justify-end">
+            <li className="flex items-center">
+              <span className="text-ishraq-gold ml-2 text-xl">●</span>
               <span>المساهمة في تحقيق أهداف وزارة الصحة ورؤية 2030</span>
-              <span className="text-ishraq-gold ml-2 text-xl">●</span>
             </li>
-            <li className="flex items-center justify-end">
-              <span>التوسع في خدماتنا لتشمل جميع مناطق المملكة</span>
+            <li className="flex items-center">
               <span className="text-ishraq-gold ml-2 text-xl">●</span>
+              <span>التوسع في خدماتنا لتشمل جميع مناطق المملكة</span>
             </li>
           </ul>
         </div>
