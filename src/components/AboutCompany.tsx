@@ -2,7 +2,7 @@ import React from 'react';
 const AboutCompany = () => {
   return <section id="about" className="py-16 bg-ishraq-beige">
       <div className="container mx-auto px-4 md:px-8">
-        <div className="mb-12">
+        {/* <div className="mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-ishraq-gold mb-6 text-right">نبذة عن إشراق</h2>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -15,7 +15,7 @@ const AboutCompany = () => {
               </p>
             </div>
           </div>
-        </div>
+        </div> */}
         
         <div className="mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-ishraq-gold mb-6 text-right">رؤيتــــنا</h2>

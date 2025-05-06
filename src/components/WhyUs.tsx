@@ -52,11 +52,12 @@ const WhyUs = () => {
           <div>
             <ul className="space-y-4">
               {reasons.map((reason, index) => (
-                <li key={index} className="flex items-start justify-end gap-4">
+                <li key={index} className="flex items-start gap-4">
+                  <div className="mt-1">{reason.icon}</div>
                   <div className="text-right">
                     <h3 className="font-bold text-xl mb-1">{reason.title}</h3>
                   </div>
-                  <div className="mt-1">{reason.icon}</div>
+                  
                 </li>
               ))}
             </ul>
@@ -65,13 +66,14 @@ const WhyUs = () => {
           <div>
             <ul className="space-y-4">
               {additionalReasons.map((reason, index) => (
-                <li key={index} className="flex items-start justify-end gap-4">
-                  <div className="text-right">
-                    <h3 className="font-bold text-xl mb-1">{reason.title}</h3>
-                  </div>
+                <li key={index} className="flex items-start gap-4">
                   <div className="mt-1">
                     <span className="text-ishraq-gold text-2xl">●</span>
                   </div>
+                  <div className="text-right">
+                    <h3 className="font-bold text-xl mb-1">{reason.title}</h3>
+                  </div>
+                  
                 </li>
               ))}
             </ul>

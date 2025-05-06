@@ -32,21 +32,21 @@ const Footer = () => {
           <div className="text-right">
             <h3 className="text-xl font-bold mb-4">معلومات التواصل</h3>
             <ul className="space-y-2">
-              <li className="flex justify-end gap-2 items-center">
+              <li className="flex  gap-2 items-center">
+                <span className="text-ishraq-gold">●</span>
                 <span>رقم التليفون</span>
-                <span className="text-ishraq-gold">●</span>
               </li>
-              <li className="flex justify-end gap-2 items-center">
+              <li className="flex  gap-2 items-center">
+                <span className="text-ishraq-gold">●</span>
                 <span>العنـــــوان</span>
-                <span className="text-ishraq-gold">●</span>
               </li>
-              <li className="flex justify-end gap-2 items-center">
+              <li className="flex  gap-2 items-center">
+                <span className="text-ishraq-gold">●</span>
                 <span>البريد الإلكتروني</span>
-                <span className="text-ishraq-gold">●</span>
               </li>
-              <li className="flex justify-end gap-2 items-center">
-                <span>الموقع الإلكتروني</span>
+              <li className="flex  gap-2 items-center">
                 <span className="text-ishraq-gold">●</span>
+                <span>الموقع الإلكتروني</span>
               </li>
             </ul>
           </div>

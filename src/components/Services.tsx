@@ -29,16 +29,16 @@ const ServiceCard = ({
         
         <div className="order-1 md:order-2">
           <div className="mb-4">
-            <div className="flex items-center justify-end gap-2 my-0">
-              <h3 className="font-bold text-2xl text-ishraq">{title}</h3>
+            <div className="flex items-center gap-2 my-0">
               <span className="text-ishraq-gold text-2xl ml-2">خدماتنا</span>
+              <h3 className="font-bold text-2xl text-ishraq">{title}</h3>
             </div>
             <p className="text-gray-700 mb-4 text-right mt-2">{description}</p>
           </div>
           <ul className="text-gray-600 space-y-2 text-right">
-            {points.map((point, index) => <li key={index} className="flex items-center justify-end gap-2">
-                <span>{point}</span>
+            {points.map((point, index) => <li key={index} className="flex items-center gap-2">
                 <span className="text-ishraq-gold mr-2">●</span>
+                <span>{point}</span>
               </li>)}
           </ul>
         </div>
